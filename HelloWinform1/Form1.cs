@@ -16,5 +16,21 @@ namespace HelloWinform1
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if(sender.Equals(button2))
+            {
+                MessageBox.Show("두번째 버튼 와우!");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (sender.Equals(button2))
+            {
+                MessageBox.Show("세번째 버튼 와우!");
+            }
+        }
     }
 }
