@@ -35,21 +35,21 @@ namespace HelloWinform1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(88, 31);
+            this.button2.Location = new System.Drawing.Point(12, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(236, 169);
+            this.button2.Size = new System.Drawing.Size(312, 165);
             this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
+            this.button2.Text = "클릭하세요!";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(88, 224);
+            this.button3.Location = new System.Drawing.Point(12, 199);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(236, 146);
+            this.button3.Size = new System.Drawing.Size(312, 156);
             this.button3.TabIndex = 1;
-            this.button3.Text = "button3";
+            this.button3.Text = "나도 버튼";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
